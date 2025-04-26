@@ -43,13 +43,15 @@
 
     .button-33, .button-66 {
       margin-bottom: 20px; /* Réduit la marge entre les boutons */
-      padding: 20px 100px; /* Largeur égale pour les deux boutons */
+      padding: 20px;
+      width: 300px; /* Largeur fixe pour que les deux boutons aient la même taille */
       background-color: #ffffff;
       color: #000000;
       border-radius: 30px;
       text-decoration: none;
       font-size: 1.2em;
       transition: background-color 0.3s ease;
+      white-space: nowrap; /* Empêche le texte de se diviser */
     }
 
     .button-33:hover, .button-66:hover {
