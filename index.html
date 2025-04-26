@@ -18,7 +18,7 @@
       height: 100vh;
       text-align: center;
       background-image: url('image5.jpeg');
-      background-size: contain;
+      background-size: cover; /* Ajuste l'image pour couvrir toute la fenêtre */
       background-position: center center;
       background-repeat: no-repeat;
       position: relative;
@@ -33,7 +33,7 @@
 
     .buttons {
       position: absolute;
-      top: 70%;
+      top: 60%; /* Réduit la marge en haut */
       left: 50%;
       transform: translate(-50%, -50%);
       display: flex;
@@ -42,8 +42,8 @@
     }
 
     .button-33, .button-66 {
-      margin-bottom: 40px;
-      padding: 20px 100px; /* Les deux boutons ont maintenant la même largeur */
+      margin-bottom: 20px; /* Réduit la marge entre les boutons */
+      padding: 20px 100px; /* Largeur égale pour les deux boutons */
       background-color: #ffffff;
       color: #000000;
       border-radius: 30px;
@@ -61,8 +61,8 @@
 
 <div class="container">
   <div class="buttons">
-    <a href="https://onlyfans.com/againlux" target="_blank" class="button-33">Onlyfans 🥵</a>
-    <a href="https://www.instagram.com/badlnx" target="_blank" class="button-66">Insta ✨</a>
+    <a href="https://onlyfans.com/againlux" target="_blank" class="button-33">Onlyfans🥵</a>
+    <a href="https://www.instagram.com/badlnx" target="_blank" class="button-66">Insta✨</a>
   </div>
 </div>
 
